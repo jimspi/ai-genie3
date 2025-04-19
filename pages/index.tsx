@@ -98,7 +98,7 @@ export default function AIGenieLanding() {
       </div>
 
       <div className="max-w-6xl mx-auto mt-20">
-        <h2 className="text-3xl font-bold text-center text-green-700 mb-10">Choose Your AI Genie Bootcamp</h2>
+        <h2 className="text-3xl font-bold text-center text-green-700 mb-10">The Bootcamp</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {features.map((feature, idx) => (
             <motion.div
