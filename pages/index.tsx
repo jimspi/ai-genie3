@@ -64,7 +64,7 @@ export default function AIGenieLanding() {
             {"The AI Genie is Out of the Bottle".split(" ").map((word, index) => (
               <motion.span
                 key={index}
-                className="text-4xl sm:text-5xl font-extrabold tracking-tight gradient-text animate-gradient-flow"
+                className="text-4xl sm:text-5xl font-extrabold tracking-tight bg-gradient-to-r from-green-400 via-blue-500 to-purple-500 bg-[length:600%_600%] bg-clip-text text-transparent animate-gradient-flow"
                 initial={{ y: 80, opacity: 0, scale: 0.8 }}
                 animate={{ y: -20, opacity: 1, scale: 1 }}
                 transition={{ duration: 0.6, delay: 0.6 + index * 0.15 }}
