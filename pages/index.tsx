@@ -78,16 +78,6 @@ export default function AIGenieLanding() {
         <p className="text-xl text-gray-600 mt-6 mb-10">
           Learn how to use AI to supercharge your critical thinking, productivity, and creativity, like this site that was entirely generated with AI in just minutes.
         </p>
-<div className="my-10 w-full max-w-3xl mx-auto">
-  <video
-    controls
-    playsInline
-    className="rounded-xl shadow-lg w-full"
-  >
-    <source src="/ai-genie-intro.mp4" type="video/mp4" />
-    Your browser does not support the video tag.
-  </video>
-</div>
 
         <form
           action="https://formspree.io/f/mrbpnklr"
