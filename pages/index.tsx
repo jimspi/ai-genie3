@@ -79,14 +79,14 @@ export default function AIGenieLanding() {
           Learn how to use AI to supercharge your critical thinking, productivity, and creativity, like this site that was entirely generated with AI in just minutes.
         </p>
 <div className="my-10 w-full max-w-3xl mx-auto">
-  <iframe
-    src="https://app.heygen.com/share/2273f206d3a142828124ee6848d831cd"
-    width="100%"
-    height="500"
-    frameBorder="0"
-    allowFullScreen
-    className="rounded-xl shadow-lg"
-  />
+  <video
+    controls
+    playsInline
+    className="rounded-xl shadow-lg w-full"
+  >
+    <source src="/ai-genie-intro.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
 </div>
 
         <form
